@@ -1,8 +1,19 @@
-aiogram[redis]>=3.5.0
-fastapi>=0.111.0
-uvicorn>=0.29.0
-python-dotenv>=1.0.0
-gspread-asyncio==2.0.0
-google-api-python-client>=2.88.0
-google-auth-httplib2>=0.1.0
-gunicorn>=21.2.0
+# --- Telegram Bot ---
+aiogram==3.7.0
+
+# --- Web Server (for Render health checks and Web App) ---
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+gunicorn==22.0.0
+
+# --- FSM State Management ---
+redis==5.0.4
+
+# --- Google Sheets & Drive Integration ---
+gspread==6.0.0
+google-api-python-client==2.133.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+
+# --- Environment Variables for Local Development ---
+python-dotenv==1.0.1
