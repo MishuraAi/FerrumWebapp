@@ -38,3 +38,4 @@ python bot/main.py
 ```bash
 # Откройте webapp/index.html
 ```
+
