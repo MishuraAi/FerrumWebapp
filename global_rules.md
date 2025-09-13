@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - After making changes, always make sure to start up a new server so I can test it.
 - Always look for existing code to iterate on instead of creating new code  
 - Do not drastically change the patterns before trying to iterate on existing patterns.
@@ -17,4 +18,3 @@
 - Do not touch code that is unrelate to the task
 - wtite thorough tests for all major functionality
 - Avoid making major changes to the patterns and architecture of how a feature works, after it has show to work well, unless explicitly instructed 
-- Always think about what other methods and areas of code might be affected by code changes
